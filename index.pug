@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Resume
+        link(href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700" rel="stylesheet")
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet")
+        link(rel="stylesheet", href="main.css")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js")
+    body
+        .background 
+            .figure.paper
+                h1.name WAYNE CHANG
+                .pic 
+                h2.job-title Front End Engineer
+                .contact
+                    .website
+                        a(href="https://www.google.com.tw/",target="_blank")
+                            i.fa.fa-home
+                            span waynechang.github.com
+                    .phone
+                            i.fa.fa-phone
+                            span 0975-528-550
+                    .mail
+                        a(href="mailto:kf250272@gmail.com?subject=from Wayne's resume")
+                            i.fa.fa-envelope
+                            span kf250272@gmail.com
+                    .address
+                        i.fa.fa-map-marker
+                        span New Taipei City, Zhonghe Dist, Taiwan 
+                p.about#about Lorem.
+                .follow 
+                    h5.title FOLLOW
+                    .codepen
+                        a(href="https://codepen.io/wayne_chang/",target="_blank")
+                            i.fa.fa-codepen
+                    .pinterest
+                        a(href="https://www.pinterest.com/waynechang0209/",target="_blank")
+                            i.fa.fa-pinterest-p
+                    .instagram
+                        a(href="https://www.instagram.com/wayne_chang0209/",target="_blank")
+                            i.fa.fa-instagram
+            
+            .skills.paper.size-skl
+                .skills-pro
+                    h5.title PROGRAMMING SKILLS
+                    ul.focus
+                        li.html5 #[span HTML5 & PUG]
+                            .skill-bar
+                                .inner-bar 
+                        li.css3 #[span CSS3 & SASS]
+                            .skill-bar
+                                .inner-bar 
+                        li.js #[span JavaScript]
+                            .skill-bar
+                                .inner-bar 
+                        li.jquery #[span JQuery]
+                            .skill-bar
+                                .inner-bar 
+                        li.svg #[span SVG]
+                            .skill-bar
+                                .inner-bar 
+                        li.canvas #[span Canvas]
+                            .skill-bar
+                                .inner-bar 
+                        li.vue #[span Vue]
+                            .skill-bar
+                                .inner-bar 
+                        li.rwd #[span RWD]
+                            .skill-bar
+                                .inner-bar 
+                        li.git #[span Git]
+                            .skill-bar
+                                .inner-bar
+                        li.npmScript #[span NPM script]
+                            .skill-bar
+                                .inner-bar
+                .skills-personal
+                    h5.title PERSONAL SKILLS
+                    ul.focus
+                        li.en #[span English]
+                            svg(viewbox="0 0 100 100")
+                                circle(cx='50' cy='50' r='45')
+                                circle.bar(cx='50' cy='50' r='45')
+                        //- li.jp #[span Japanese] 
+                        //-     svg(viewbox="0 0 100 100")
+                                //- circle(cx='50' cy='50' r='45')
+                        li.uxui #[span UX & UI]
+                            svg(viewbox="0 0 100 100")
+                                circle(cx='50' cy='50' r='45')
+                                circle.bar(cx='50' cy='50' r='45')
+                        li.gh #[span Generative <br> Design]
+                            svg(viewbox="0 0 100 100")
+                                circle(cx='50' cy='50' r='45')
+                                circle.bar(cx='50' cy='50' r='45')
+                        li.ps #[span Photoshop]
+                            svg(viewbox="0 0 100 100")
+                                circle(cx='50' cy='50' r='45')
+                                circle.bar(cx='50' cy='50' r='45')
+                        li.illu #[span Illustrator]
+                            svg(viewbox="0 0 100 100")
+                                circle(cx='50' cy='50' r='45')
+                                circle.bar(cx='50' cy='50' r='45')
+                        li.threeD #[span 3D model]
+                            svg(viewbox="0 0 100 100")
+                                circle(cx='50' cy='50' r='45')
+                                circle.bar(cx='50' cy='50' r='45')
+                .edu
+                    h5.title EDUCATION
+                    ul.focus
+                        li#study.describe 
+                            h6 Major
+                            p Chung Hua 
+                            em 
+
+            .experience.paper.size-exp
+                .work
+                    h5.title WORK EXPERIENCE
+                    ul.focus
+                        li#cycle.describe
+                            h6 Cycle workshop technician
+                            p Decathlon
+                            em Maintain and repair bicycle
+                        li#image_group.describe
+                            h6 形象小組
+                            p 中華
+                            em 海報
+                        li#art_fun.describe
+                            h6 art for fun
+                            p 中華
+                            em Scottie Huang 作品搭建
+
+                .other
+                    h5.title OTHER EXPERIENCE
+                    ul.focus
+                        li#learn_php.describe 
+                            h6 PHP&MySQL
+                            p Taiwan University 
+                        li#learn_js.describe 
+                            h6 Javascript
+                            p Taiwan University
+                .interests
+                    h5.title INTERESTS  
+                    .hobby
+                        i.fa.fa-film 
+                        span Movie
+                    .hobby
+                        i.fa.fa-gamepad
+                        span Game
+                    .hobby
+                        i.fa.fa-bicycle
+                        span Bike   
+                    .hobby
+                        i.fa.fa-coffee
+                        span Tea
+                    .hobby
+                        i.fa.fa-pencil-square-o
+                        span Design 
+                    .hobby
+                        i.fa.fa-book
+                        span Book    
+    
+        script(src="uglifyjs/app.js")
